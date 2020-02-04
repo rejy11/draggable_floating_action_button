@@ -1,7 +1,6 @@
 name: draggable_floating_action_button
 description: A draggable floating action button which can be moved on the horizontal axis
 version: 0.0.1
-author: rejy11
 homepage: https://github.com/rejy11/draggable_floating_action_button
 
 environment:
