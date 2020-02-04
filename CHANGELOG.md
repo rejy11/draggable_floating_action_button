@@ -1,3 +1,3 @@
-## [0.0.1] - 04/02/2020
+## [0.0.2] - 04/02/2020
 
-* Initial release.
+* License and ReadMe files updated
