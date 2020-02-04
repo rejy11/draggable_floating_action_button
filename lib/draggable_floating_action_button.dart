@@ -34,7 +34,6 @@ class _DraggableFloatingActionButtonState
             child: mainFabRight
                 ? DragTarget(
                     builder: (context, candidateData, rejectedData) {
-                      print(candidateData);
                       return isRightDragging
                           ? Opacity(
                               opacity: 0.3,
@@ -117,16 +116,15 @@ class _DraggableFloatingActionButtonState
                   )
                 : DragTarget(
                     builder: (context, candidateData, rejectedData) {
-                      print(candidateData);
-                      if (isLeftDragging) {
-                        return Opacity(
-                          opacity: 0.3,
-                          child: FloatingActionButton(
-                            child: widget.icon,
-                            onPressed: null,
-                          ),
-                        );
-                      }
+                      return isLeftDragging
+                          ? Opacity(
+                              opacity: 0.3,
+                              child: FloatingActionButton(
+                                child: widget.icon,
+                                onPressed: null,
+                              ),
+                            )
+                          : null;
                     },
                     onWillAccept: (data) => true,
                     onAccept: (data) {
@@ -136,7 +134,7 @@ class _DraggableFloatingActionButtonState
                       });
                     },
                   ),
-          )
+          ),
         ],
       ),
     );

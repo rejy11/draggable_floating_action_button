@@ -1,3 +1,3 @@
-## [0.0.2] - 04/02/2020
+## [0.0.3] - 04/02/2020
 
-* License and ReadMe files updated
+* Added an example and some small refactoring.

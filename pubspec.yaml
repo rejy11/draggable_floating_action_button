@@ -1,6 +1,6 @@
 name: draggable_floating_action_button
 description: A draggable floating action button which can be moved on the horizontal axis
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/rejy11/draggable_floating_action_button
 
 environment:
@@ -11,8 +11,6 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
