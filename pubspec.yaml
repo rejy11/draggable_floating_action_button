@@ -1,8 +1,8 @@
 name: draggable_floating_action_button
-description: A new Flutter package project.
+description: A draggable floating action button which can be moved on the horizontal axis
 version: 0.0.1
-author:
-homepage:
+author: rejy11
+homepage: https://github.com/rejy11/draggable_floating_action_button
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
